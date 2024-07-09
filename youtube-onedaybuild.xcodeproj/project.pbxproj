@@ -17,6 +17,7 @@
 		A6C01B692C3D1368001EFE53 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C01B682C3D1368001EFE53 /* Video.swift */; };
 		A6C01B6B2C3D13CC001EFE53 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C01B6A2C3D13CC001EFE53 /* Model.swift */; };
 		A6C01B6D2C3D360E001EFE53 /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C01B6C2C3D360E001EFE53 /* ConstantsTemplate.swift */; };
+		A6C01B6F2C3D5E14001EFE53 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C01B6E2C3D5E14001EFE53 /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A6C01B682C3D1368001EFE53 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		A6C01B6A2C3D13CC001EFE53 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		A6C01B6C2C3D360E001EFE53 /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
+		A6C01B6E2C3D5E14001EFE53 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				A6C01B682C3D1368001EFE53 /* Video.swift */,
 				A6C01B6A2C3D13CC001EFE53 /* Model.swift */,
 				A6C01B6C2C3D360E001EFE53 /* ConstantsTemplate.swift */,
+				A6C01B6E2C3D5E14001EFE53 /* Response.swift */,
 			);
 			path = "youtube-onedaybuild";
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6C01B6F2C3D5E14001EFE53 /* Response.swift in Sources */,
 				A6C01B6D2C3D360E001EFE53 /* ConstantsTemplate.swift in Sources */,
 				A6C01B572C3BCB26001EFE53 /* ViewController.swift in Sources */,
 				A6C01B532C3BCB26001EFE53 /* AppDelegate.swift in Sources */,
