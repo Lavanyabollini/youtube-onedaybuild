@@ -18,6 +18,8 @@
 		A6C01B6B2C3D13CC001EFE53 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C01B6A2C3D13CC001EFE53 /* Model.swift */; };
 		A6C01B6D2C3D360E001EFE53 /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C01B6C2C3D360E001EFE53 /* ConstantsTemplate.swift */; };
 		A6C01B6F2C3D5E14001EFE53 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C01B6E2C3D5E14001EFE53 /* Response.swift */; };
+		A6C01B712C3E5C82001EFE53 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C01B702C3E5C82001EFE53 /* VideoTableViewCell.swift */; };
+		A6C01B782C3E7310001EFE53 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C01B772C3E7310001EFE53 /* CacheManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		A6C01B6A2C3D13CC001EFE53 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		A6C01B6C2C3D360E001EFE53 /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 		A6C01B6E2C3D5E14001EFE53 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		A6C01B702C3E5C82001EFE53 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		A6C01B772C3E7310001EFE53 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,18 +72,60 @@
 			children = (
 				A6C01B522C3BCB26001EFE53 /* AppDelegate.swift */,
 				A6C01B542C3BCB26001EFE53 /* SceneDelegate.swift */,
-				A6C01B562C3BCB26001EFE53 /* ViewController.swift */,
-				A6C01B582C3BCB26001EFE53 /* Main.storyboard */,
+				A6C01B762C3E5CDA001EFE53 /* Helpers */,
+				A6C01B752C3E5CD0001EFE53 /* Storyboards */,
+				A6C01B742C3E5CC8001EFE53 /* Models */,
+				A6C01B732C3E5CC2001EFE53 /* Views */,
+				A6C01B722C3E5CB4001EFE53 /* ViewControllers */,
 				A6C01B5B2C3BCB29001EFE53 /* Assets.xcassets */,
-				A6C01B5D2C3BCB29001EFE53 /* LaunchScreen.storyboard */,
 				A6C01B602C3BCB29001EFE53 /* Info.plist */,
-				A6C01B662C3D0261001EFE53 /* Constants.swift */,
-				A6C01B682C3D1368001EFE53 /* Video.swift */,
-				A6C01B6A2C3D13CC001EFE53 /* Model.swift */,
-				A6C01B6C2C3D360E001EFE53 /* ConstantsTemplate.swift */,
-				A6C01B6E2C3D5E14001EFE53 /* Response.swift */,
 			);
 			path = "youtube-onedaybuild";
+			sourceTree = "<group>";
+		};
+		A6C01B722C3E5CB4001EFE53 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6C01B562C3BCB26001EFE53 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A6C01B732C3E5CC2001EFE53 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6C01B702C3E5C82001EFE53 /* VideoTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A6C01B742C3E5CC8001EFE53 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A6C01B682C3D1368001EFE53 /* Video.swift */,
+				A6C01B6E2C3D5E14001EFE53 /* Response.swift */,
+				A6C01B6A2C3D13CC001EFE53 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A6C01B752C3E5CD0001EFE53 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A6C01B582C3BCB26001EFE53 /* Main.storyboard */,
+				A6C01B5D2C3BCB29001EFE53 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A6C01B762C3E5CDA001EFE53 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A6C01B662C3D0261001EFE53 /* Constants.swift */,
+				A6C01B6C2C3D360E001EFE53 /* ConstantsTemplate.swift */,
+				A6C01B772C3E7310001EFE53 /* CacheManager.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,8 +205,10 @@
 				A6C01B532C3BCB26001EFE53 /* AppDelegate.swift in Sources */,
 				A6C01B552C3BCB26001EFE53 /* SceneDelegate.swift in Sources */,
 				A6C01B6B2C3D13CC001EFE53 /* Model.swift in Sources */,
+				A6C01B782C3E7310001EFE53 /* CacheManager.swift in Sources */,
 				A6C01B672C3D0261001EFE53 /* Constants.swift in Sources */,
 				A6C01B692C3D1368001EFE53 /* Video.swift in Sources */,
+				A6C01B712C3E5C82001EFE53 /* VideoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
